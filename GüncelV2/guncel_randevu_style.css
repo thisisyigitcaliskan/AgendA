@@ -327,7 +327,7 @@ body {
 .line-edits {
     display: flex;
     justify-content: space-between;
-    padding: 5px; /* Gerekirse, boşluk ekleyebilirsiniz */
+    padding: 5px;
     background-color: transparent;
 }
 
@@ -336,22 +336,22 @@ body {
     position: relative;
     top: 0;
     display: none;
-    background-color: #ffffff; /* Gerekirse, arka plan rengini ayarlayabilirsiniz */
-    border-radius: 10px; /* Gerekirse, kenar yarıçapını ayarlayabilirsiniz */
+    background-color: #ffffff;
+    border-radius: 10px;
     overflow: hidden;
-    box-shadow: 2px 3px rgba(0, 0, 0, 0.1); /* Gerekirse, gölge ekleyebilirsiniz */
-    border: 2px solid #000002; /* Çerçeve ekleyin */
+    box-shadow: 2px 3px rgba(0, 0, 0, 0.1);
+    border: 2px solid #000002;
 }
 
 .line-edits .input-group img {
-    width: 20px; /* Gerekirse, resim boyutunu ayarlayabilirsiniz */
+    width: 20px;
     height: 20px;
-    margin-right: 5px; /* Gerekirse, sağ kenar boşluğunu ayarlayabilirsiniz */
+    margin-right: 5px;
 }
 
 .line-edits .input-group input {
     width: 100%;
-    padding: 5px; /* Gerekirse, iç boşluğu ayarlayabilirsiniz */
+    padding: 5px;
     border: none;
     outline: none;
     background: transparent;
@@ -380,17 +380,17 @@ body {
 }
 
 .button-group {
-    top: 50px; /* line-edits'in altında yer alacak şekilde ayarlayın */
+    top: 50px;
     left: 0;
 }
 
 .table-container {
-    overflow-x: auto; /* Yatay kaydırmayı etkinleştirin */
+    overflow-x: auto; 
     position: relative;
 }
 
 .table-container table {
-    width: 100%; /* Tablo genişliği */
+    width: 100%; 
 }   
 
 
@@ -398,10 +398,10 @@ body {
     display: flex;
     gap: 10px;
     position: sticky;
-    top: 80.5px; /* Düzeltilmiş */
+    top: 80.5px;
     width: 100%;
     background: #d5d1defe;
-    z-index: 1001; /* "line-edits" ile aynı veya daha yüksek */
+    z-index: 1001;
     padding: 10px;
     border-bottom: 1.5px solid gray;
 }
