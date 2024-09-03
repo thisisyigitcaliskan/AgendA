@@ -9,7 +9,6 @@ const search = document.querySelector('.input_group input'),
     table_rows = document.querySelectorAll('tbody tr'),
     table_headings = document.querySelectorAll('thead th');
 
-// 1. Searching for specific data of HTML table
 search.addEventListener('input', searchTable);
 
 function searchTable() {
@@ -25,8 +24,6 @@ function searchTable() {
         visible_row.style.backgroundColor = (i % 2 == 0) ? 'transparent' : '#0000000b';
     });
 }
-
-// 2. Sorting | Ordering data of HTML table
 
 table_headings.forEach((head, i) => {
     let sort_asc = true;
@@ -56,8 +53,6 @@ function sortTable(column, sort_asc) {
     })
         .map(sorted_row => document.querySelector('tbody').appendChild(sorted_row));
 }
-
-// 3. Converting HTML table to PDF
 
 const pdf_btn = document.querySelector('#toPDF');
 const customers_table = document.querySelector('#customers_table');
